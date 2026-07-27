@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: consolas;
+}
+
+.header {
+    font-family: shockwave;
+    text-align: center;
+}
+
+.mainbox {
+    border: 1px solid white;
+    display:block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.mainbox ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+.mainbox li {
+    margin: 10px;
+    transition: 1s;
+    text-align: center;
+}
+
+.mainbox li:hover {
+    transform: scale(1.2);
+}
