@@ -31,3 +31,8 @@ body {
 .mainbox li:hover {
     transform: scale(1.2);
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
